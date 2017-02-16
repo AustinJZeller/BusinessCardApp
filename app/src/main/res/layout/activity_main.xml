@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.austinzeller.businesscardapp.MainActivity"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cbandtl"
+        android:id="@+id/coffeeImageView"
+        android:layout_marginBottom="276dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/imageview" />
+
+    <TextView
+        android:text="@string/the_coffee_bean_and_tea_leaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbtlTextView"
+        android:padding="10dp"
+        android:layout_marginBottom="217dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:text="@string/address_galleria_oaks_autozone_13376_us_183_800_austin_tx_78750"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/addressTextView"
+        android:layout_alignTop="@+id/cbtlTextView"
+        android:textColor="@android:color/background_dark"
+        android:padding="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/phone_number_512_219_9256"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        android:padding="15dp"
+        android:layout_below="@+id/addressTextView"
+        android:layout_alignRight="@+id/cbtlTextView"
+        android:layout_alignEnd="@+id/cbtlTextView" />
+</RelativeLayout>

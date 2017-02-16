@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Business Card App</string>
+    <string name="address_galleria_oaks_autozone_13376_us_183_800_austin_tx_78750">Address: Galleria Oaks/Autozone, 13376 US-183 #800, Austin, TX 78750</string>
+    <string name="the_coffee_bean_and_tea_leaf">The Coffee Bean and Tea Leaf</string>
+    <string name="imageview">ImageView</string>
+    <string name="phone_number_512_219_9256">Phone Number: (512)-219-9256</string>
+</resources>
